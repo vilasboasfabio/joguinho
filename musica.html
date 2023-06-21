@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jogo de Adivinhação de Filme</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/musica.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <iframe src="header.html" frameborder="0"></iframe>
+    <h1>Adivinhe qual é a minha música favorita...</h1>
+    <p>Se você ainda não sabe, eu sou um amante de musicais classicas, principalmente com as presentes no balet, afinal,
+        a composição da maioria delas é perfeitamnte executada em uma harmonia sem igual nos pianos, oque as deixam mais
+        únicas e lindas. Mas será que você consegue adivinhar qual delas é a minha favorita?</p>
+    <input type="text" id="resposta" placeholder="Digite o seu palpite">
+    <button onclick="verificarResposta()" id="verificar">Verificar</button>
+    <div id="dica"></div>
+    <div id="tentativas"></div>
+    <div id="resultado"></div>
+    <div id="botão_para_proxima_fase"></div>
+    <iframe src="footer.html" frameborder="0" id="footer"></iframe>
+</body>
+
+</html>

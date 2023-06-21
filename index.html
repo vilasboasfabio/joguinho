@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jogo de Adivinhação de Filme</title>
+    <meta charset="utf-8">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/filme.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <iframe src="header.html" frameborder="0"></iframe>
+  <h1>Adivinhe o meu filme favorito...</h1>
+  <p>Será que você me conhce o suficiente para adivinhar o meu filme favorito? Vamos ver... você terá seis tentaivas seguidas por dicas, para tentar adivinhar o um dos meus filmes favoritos.</p>
+  <input type="text" id="resposta" placeholder="Digite o nome do filme">
+  <button onclick="verificarResposta()" id="verificar">Verificar</button>
+  <div id="dica"></div>
+  <div id="tentativas"></div>
+  <div id="resultado"></div>
+  <div id="botão_para_proxima_fase"></div>
+</body>
+<iframe src="footer.html" frameborder="0" id="footer"></iframe>
+</html>

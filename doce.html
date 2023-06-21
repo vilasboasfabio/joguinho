@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jogo de Adivinhação de Doce</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/doce.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <iframe src="header.html" frameborder="0"></iframe>
+    <h1>Adivinhe o meu doce favorito...</h1>
+    <p>Você já deve saber que eu sou apaixonado por tudo oque tenha açucar ou seja prazerosamente doce. Mas será que
+        você me conhece bem o suficiente para saber qual é o meu doce favorito? </p>
+    <input type="text" id="resposta" placeholder="Digite o nome do doce">
+    <button onclick="verificarResposta()" id="verificar">Verificar</button>
+    <div id="dica"></div>
+    <div id="tentativas"></div>
+    <div id="resultado"></div>
+    <div id="botão_para_proxima_fase"></div>
+    <iframe src="footer.html" frameborder="0" id="footer"></iframe>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f6e4d9;
+    text-align: center;
+  }
+
+  h1 {
+    color: #ff7f50;
+    margin-top: 30px;
+    margin-top: 10%;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+  }
+
+  #verificar {
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  #verificar:hover {
+    background-color: #ff6347;
+  }
+
+  #dica {
+    color: #ff7f50;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  #resultado {
+    color: #ff7f50;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  p {
+    color: #ff7f50;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+ #tentativas {
+    color: #ff7f50;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  a{
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  #botão_para_proxima_fase{
+    width: 30%;
+    background-color: purple;
+    color: #fff;
+    border-radius: 5%;
+    margin-left: auto;
+   margin-right: auto;
+   margin-top: 5%;
+ 
+  }
+  iframe{
+    width: 105%;
+    margin: -1%;
+  }
+  #footer{
+    margin-top: 8.1%;
+  }
+  @media (max-width: 700px){
+    #botão_para_proxima_fase{
+      width: 80%;
+    }
+    iframe{
+      margin-left: -2.8%;
+    }
+    #footer{
+      margin-top: 43%;
+      margin-bottom: -5%;
+
+    }
+  
+  }
+ 

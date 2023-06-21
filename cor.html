@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jogo de Adivinhação de Filme</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/cor.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <iframe src="header.html" frameborder="0"></iframe>
+    <h1>Adivinhe a minha cor...</h1>
+    <p>Bom, essa é muito facil. Se você é um bom observador, talvez já tenha percebido a minha cor favorita entre as
+        páginas desse site. Porém, se você ainda tiver duvidas, eu posso te dar até três dicas.</p>
+    <input type="text" id="resposta" placeholder="Digite o seu palpite">
+    <button onclick="verificarResposta()" id="verificar">Verificar</button>
+    <div id="dica"></div>
+    <div id="tentativas"></div>
+    <div id="resultado"></div>
+    <div id="botão_para_proxima_fase"></div>
+    <iframe src="footer.html" frameborder="0" id="footer"></iframe>
+</body>
+
+</html>
